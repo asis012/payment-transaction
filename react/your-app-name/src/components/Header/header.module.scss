@@ -1,0 +1,14 @@
+.header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #213547;
+	justify-content: space-between;
+	.logo {
+		height: 6em;
+		padding: 1.5em;
+		&:hover {
+			filter: drop-shadow(0 0 2em #646cffaa);
+		}
+	}
+}
